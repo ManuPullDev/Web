@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" media="screen and (max-width: 1080px)" href="petite_resolution.css" />
+    <link rel="stylesheet" href="Styles/Style.css">
+</head>
+<body>
+    
+    <header>
+        <div class="navbar">
+            <img src="images/logoPull.png" alt="">
+                <nav class="nav-links">
+                    <ul>
+                        <li><a href="#">Acceuil</a></li>
+                        <li><a href="#">Evenement</a></li>
+                        <li><a href="#">A Propos</a></li>
+                        <li><a href="#">Divers</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </nav>
+            <img src="images/Menu_Btn.png" alt="" class="menu_navbar">
+            <img src="images/icone-fermer-et-x-noir-1-removebg-preview.png" alt="" class="btn_fermer">
+        </div>
+        <div class="content">
+                <h1>Pull<span>Color</span>Event</h1>
+                <p>
+                    Bienvenue sur notre platforme instauré pour tout les Evenements
+                    de <em>PullColorEvent</em>. Vous aurez toutes les infomations ici.</br>
+                    Pull<span>Color</span>Event : Votre énergies, votre joie, vos sourires...
+                    Enfin votre vie colorée.
+                </p>
+    
+                <button><a href="#">S'incrire</a></button>
+                <button><a href="#"> Membre</a></button>
+        </div>
+    </header>
+    
+
+</body>
+        <script>
+             const menuHamburger = document.querySelector(".menu_navbar")
+        const navLinks = document.querySelector(".nav-links")
+ 
+        menuHamburger.addEventListener('click',()=>{
+        navLinks.classList.toggle('mobile-menu')
+        navLinks.classList.toggle('btn-fermer')
+        })
+        </script>
+
+        
+</html>
